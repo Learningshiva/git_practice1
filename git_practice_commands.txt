@@ -1,0 +1,32 @@
+To convert a normal directory or folder to git 
+git init
+
+to check status
+git status
+
+to add a file to git
+Ex 1. git add file_name
+Ex 2. git add . /
+
+To commit in the git
+git commit -m "commit message"
+
+to check all the history or activity 
+git log
+
+Setting global configurations
+(This will display all the existing global configurations)
+cmd- git config --global --list 
+
+To set global configurations
+git config --global user.email "asudakua2305@gmail.com"
+git config --global user.name "asutosh"
+
+
+Setting remote repository
+syntax - git remote add origin repository_url
+ex - git remote add origin https://github.com/Learningshiva/git_practice1
+
+
+Setting upstream branch details
+cmd - git push --set-upstream origin master
