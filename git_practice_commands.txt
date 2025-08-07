@@ -53,3 +53,11 @@ ex - git merge feature
 
 to reflect the same in remote repo,
 git push
+
+
+command to fetch data from master to feature
+1st you need to be in feature branch
+git checkout feature
+git pull origin master
+
+git push
