@@ -43,3 +43,13 @@ git branch
 to switch from one branch to another 
 git checkout branch_name
 git checkout feature
+
+merging two branches
+1st go to parent branch 
+Ex - git checkout master
+
+syn - git merge child_branch_name
+ex - git merge feature
+
+to reflect the same in remote repo,
+git push
