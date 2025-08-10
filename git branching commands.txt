@@ -46,4 +46,4 @@ Ex - git push origin --delete dev
 Set the upstream branch details for pushing from the local repo to remote repo.
 >git push --set-upstream origin developer
 
-git push
+git push (this will update the remote repo.)
