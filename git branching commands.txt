@@ -15,5 +15,9 @@ to check version of git
 git -v
 
 
+to check latest commits in remote & local branch
+git branch -a -v
+
+
 
 
