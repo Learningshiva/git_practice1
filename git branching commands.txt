@@ -19,5 +19,13 @@ to check latest commits in remote & local branch
 git branch -a -v
 
 
+to fetch changes from one local branch to another local branch.
+in 3 ways we can do
+1. You have to tell Git from where to pull, in this case from the current directory/repository (.):
+git pull . master
 
+2. But when working locally, you can simply use merge (pull internally calls merge):
+git merge master
+
+(OPTIONAL)3. What is meant by "pull internally calls merge"? With default configuration, git pull . master is the same as git fetch . master && git merge FETCH_HEAD
 
