@@ -1,0 +1,7 @@
+to see list of branches
+git branch
+
+to swith to a different brnach 
+git checkout branch_name
+
+
