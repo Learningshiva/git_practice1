@@ -33,3 +33,17 @@ NOte - to reflect changes in the remote repo you have to push the code.
 Go to branch
 git checkout dev
 git push
+
+
+to rename a branch
+SYN - git branch -m new_name
+EX - git branch -m developer
+
+to remove the old branch from remote
+SYN - git push origin --delete old_branch_name
+Ex - git push origin --delete dev
+
+Set the upstream branch details for pushing from the local repo to remote repo.
+>git push --set-upstream origin developer
+
+git push
