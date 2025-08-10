@@ -1,7 +1,19 @@
 to see list of branches
 git branch
 
-to swith to a different brnach 
+to swith to a different branch 
 git checkout branch_name
+
+
+to check all the remote & local branches
+git brnach -a
+
+to check latest commits in branch
+git branch -v
+
+to check version of git
+git -v
+
+
 
 
