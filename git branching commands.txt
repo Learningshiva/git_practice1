@@ -29,3 +29,7 @@ git merge master
 
 (OPTIONAL)3. What is meant by "pull internally calls merge"? With default configuration, git pull . master is the same as git fetch . master && git merge FETCH_HEAD
 
+NOte - to reflect changes in the remote repo you have to push the code.
+Go to branch
+git checkout dev
+git push
