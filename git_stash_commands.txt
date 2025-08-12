@@ -1,0 +1,32 @@
+To stash all files
+git stash
+
+list of stashed commands
+git stash list
+
+will dispaly 0th position
+git stash show
+
+
+git stash show {1} --> will display 1st position
+
+git stash save message --
+
+to get back to work
+git stash pop
+
+to get back to work position {1}
+git stash pop {1} 
+
+
+to drop a stash from position
+git stash {1} /{stash_id}
+
+to clear/ remove files from stash
+git stash clear/
+
+to show more details 
+git stash -p
+
+stashing a single file.
+git stash --<file_name>
