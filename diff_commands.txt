@@ -1,0 +1,11 @@
+Git Topics, 
+
+1. diff
+2. rename
+3. tag
+4. alias
+5. gitignore
+6. reset 
+7. revert
+8. clean
+9. rm 
