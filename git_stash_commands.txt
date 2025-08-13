@@ -1,3 +1,9 @@
+What is uses of git stash?
+To temporarily saving uncommitted changes in working directory.
+
+When to use git stash apply?
+if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit.
+
 To stash all files
 git stash
 
