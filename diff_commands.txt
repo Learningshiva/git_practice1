@@ -1,0 +1,44 @@
+Git Topics, 
+
+1. diff
+2. rename
+3. tag
+4. alias
+5. gitignore
+6. reset 
+7. revert
+8. clean
+9. rm 
+
+diff
+-------
+compare before commit
+git diff staged
+
+compare before staged
+git diff 
+
+compare before stating with file_name.
+git diff file_name
+
+compare diff if you have 2 commit ids
+git diff old_commit_id new_commit_id
+
+tag
+----
+lightweight tag
+SYN -git tag tag_name
+git tag v1.0 
+
+annotated tag
+SYN - git tag -a short_id -m "message"
+Ex - git tag -a v2.0 -m "tag demo"
+
+To push to remote repo
+git push origin --tags
+
+to delete a tag from local
+git tag -d tag_name
+
+to delete a tag from remote
+git push origin --delete bug23
