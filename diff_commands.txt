@@ -47,3 +47,34 @@ git push origin --delete bug23
 
 
 
+reset
+------
+it will delete the commit id, but data will be in untracked area.
+git reset commit_id
+
+revert
+-----
+It will revert you to 3rd commit id.
+git revert 3rd_commit_id
+
+clean
+------------
+it will remove or delete the new file in the untracked area.
+git clean -n 
+
+rm
+---
+git rm file_name/commit_name
+
+clone 
+-----
+it will clone the remote repository
+git clone repository_link
+
+
+fork
+-----
+if permission is there then you will be able to see the latest changes.
+else - latest changes will not be available.
+
+
