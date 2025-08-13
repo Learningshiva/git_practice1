@@ -10,11 +10,17 @@ Git Topics,
 8. clean
 9. rm 
 
+diff
+-------
+compare before commit
+git diff staged
 
+compare before staged
+git diff 
 
+compare before stating with file_name.
+git diff file_name
 
+compare diff if you have 2 commit ids
+git diff old_commit_id new_commit_id
 
-added by Kamal
-added by Kamal2
-
-Added by Badal
