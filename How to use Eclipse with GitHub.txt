@@ -1,0 +1,14 @@
+How to use Eclipse with GitHub
+
+Requirements:
+The latest version of Eclipse downloaded and of course a GitHub account is needed.
+
+First Step: Install EGit in Eclipse:
+For uploading code from Eclipse, the egit-plugin is needed.
+
+.In Eclipse, go to Help/Install new Software....
+.Paste http://download.eclipse.org/egit/updates in Work with: and click Add.
+.Select all of the options and click Next.
+.Accept all of the license agreements and finish the installation.
+
+
