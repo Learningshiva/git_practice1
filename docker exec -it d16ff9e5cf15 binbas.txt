@@ -1,0 +1,38 @@
+docker exec -it d16ff9e5cf15 /bin/bash
+
+docker container run --detach --name mydb -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:latest
+
+
+docker exec -it mydb mysql --user=root --password==$MYSQL_ROOT_PASSWORD MySQL -u root -p
+
+
+set DOCKERID = shiva9853  // THis command will work in windows.
+
+docker image build --tag %DOCKERID%/linux_tweet_app:1.0 .
+
+docker container run --detach --publish 80:80 --name linux_tweet_app %DOCKERID%/linux_tweet_app:1.0
+
+docker.io/shiva9853/linux_tweet_app:1.0
+
+
+docker image build --tag %DOCKERID%/linux_tweet_app:2.0 .
+
+docker container run --detach --publish 80:80 --name linux_tweet_app %DOCKERID%/linux_tweet_app:2.0
+
+
+
+
+docker image build --tag %DOCKERID%/linux_tweet_app:3.0 .
+
+docker container run --detach --publish 80:80 --name linux_tweet_app %DOCKERID%/linux_tweet_app:3.0
+
+
+
+docker image push %DOCKERID%/linux_tweet_app:1.0
+
+docker image push %DOCKERID%/linux_tweet_app:2.0
+
+docker image push %DOCKERID%/linux_tweet_app:3.0
+
+
+

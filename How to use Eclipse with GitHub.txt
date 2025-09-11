@@ -10,5 +10,3 @@ For uploading code from Eclipse, the egit-plugin is needed.
 .Paste http://download.eclipse.org/egit/updates in Work with: and click Add.
 .Select all of the options and click Next.
 .Accept all of the license agreements and finish the installation.
-
-
